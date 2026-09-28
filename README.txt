@@ -19,9 +19,9 @@ and exercises.
 - API Testing
 - Postman
 
-## Projects
+## WEB TESTING
 
-Manual testing project covering:
+Manual testing covering:
 - Test case creation
 - Functional testing
 - Positive/negative testing
