@@ -1,0 +1,17 @@
+TC-003
+
+Title:
+Fill the email with blank or wrong format
+
+Steps:
+1. Open the registration page
+2. Fill the form with valid and proper input
+3. Fill the email with blank or wrong format
+4. Do the Captcha
+5. Click Submit
+
+Expected Result:
+Gives Error Message
+
+Actual Result:
+Gives Error Message

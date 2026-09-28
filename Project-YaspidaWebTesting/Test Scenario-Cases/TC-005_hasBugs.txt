@@ -1,0 +1,22 @@
+TC-005
+
+Title:
+Fill the form and refresh the page
+
+Steps:
+1. Open the registration page
+2. Fill the form with not proper input
+4. Do the Captcha
+5. Refresh the page
+
+Expected Result:
+The filled form should keep the input and not blank
+
+Actual Result:
+The filled form do not keep the input and back to blank
+
+Severity:
+High
+
+Priority:
+High
