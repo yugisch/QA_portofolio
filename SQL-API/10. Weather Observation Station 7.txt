@@ -1,0 +1,9 @@
+10. Weather Observation Station 7
+
+problem:
+Query the list of CITY names ending with vowels (a, e, i, o, u) from STATION. Your result cannot contain duplicates.
+
+solution:
+SELECT DISTINCT CITY 
+FROM STATION 
+WHERE RIGHT(CITY,1) IN ('a','e','i','o','u');
