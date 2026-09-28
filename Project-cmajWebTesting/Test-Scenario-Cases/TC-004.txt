@@ -1,0 +1,16 @@
+TC-004
+
+Title:
+Fill the form with not proper input
+
+Steps:
+1. Open the registration page
+2. Fill the form with not proper input
+4. Do the Captcha
+5. Click Submit
+
+Expected Result:
+“Data sudah ada/Nomor salah/dummy. Silahkan cek kembali atau hubungi wali santri/siswa yang bersangkutan!”
+
+Actual Result:
+“Data sudah ada/Nomor salah/dummy. Silahkan cek kembali atau hubungi wali santri/siswa yang bersangkutan!”

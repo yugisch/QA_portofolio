@@ -1,0 +1,23 @@
+TC-006
+
+Title:
+Submitting the form and make one not proper input 
+
+Steps:
+1. Open the registration page
+2. Fill the form with not proper input
+4. Do the Captcha
+5. Click Submit
+
+Expected Result:
+The filled input should stay the same and only give warning/error message to the not proper input
+
+Actual Result:
+it gives Error Message “Data sudah ada/Nomor salah/dummy. Silahkan cek kembali atau hubungi wali santri/siswa yang bersangkutan!”
+But The filled form do not keep the input and back to blank
+
+Severity:
+High
+
+Priority:
+High

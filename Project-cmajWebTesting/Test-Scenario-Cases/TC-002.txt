@@ -1,0 +1,17 @@
+TC-002
+
+Title:
+Fill the email with proper format
+
+Steps:
+1. Open the registration page
+2. Fill the form with valid and proper input
+3. Fill the email with proper format
+4. Do the Captcha
+5. Click Submit
+
+Expected Result:
+Pendaftaran Berhasil
+
+Actual Result:
+Pendaftaran Berhasil
