@@ -1,0 +1,12 @@
+Requirement ID,Requirement / Feature,Mapped Test Cases,Risk,Execution Status
+REQ-01,Import valid MIDI files,"TC-001, TC-002, TC-003, TC-004, TC-005",High,Not Run
+REQ-02,Separate MIDI source tracks into output tracks,"TC-003, TC-024",High,Not Run
+REQ-03,Correct pitch/octave/range handling,"TC-006, TC-007, TC-012",High,Not Run
+REQ-04,Correct rests/chords/durations,"TC-008, TC-009, TC-010",High,Not Run
+REQ-05,Beat-grid behavior and repeatability,"TC-011, TC-013",Medium,Not Run
+REQ-06,SoundFont preset selection,"TC-015, TC-018",High,Not Run
+REQ-07,Per-track playback/highlighting and Play All,"TC-014, TC-016, TC-017",High,Not Run
+REQ-08,Virtual piano/keyboard controls/audio behavior,"TC-018, TC-019, TC-020, TC-021",Medium,Not Run
+REQ-09,Copy and TXT export integrity,"TC-022, TC-023",High,Not Run
+REQ-10,Track labels and output layout,"TC-024, TC-025, TC-026, TC-027",Medium,Not Run
+REQ-11,Repeated import/reset stability,"TC-028, TC-029",High,Not Run

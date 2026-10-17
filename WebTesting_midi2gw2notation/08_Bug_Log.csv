@@ -1,0 +1,9 @@
+Bug ID,Title,Area,Severity,Priority,Status / Confidence,Related Test Cases,Evidence Needed
+BUG-001,Copy/download includes undefined text,Functional / export,S2 - High,P1 - Urgent,Reported fixed; retest required,TC-022; TC-023,Before/after clipboard and TXT evidence
+BUG-002,Single-track playback highlights other tracks,Playback / visualization,S2 - High,P2 - High,Reported addressed; retest required,TC-016; TC-017,Screen recording of multi-track playback
+BUG-003,Selected SoundFont instruments sound the same or mismatched,Audio / SoundFont,S2 - High,P1 - Urgent,User reported friend fixed repo; verify independently,TC-015; TC-018,Audio comparison of at least two presets
+BUG-004,Generic track labels / missing accent indicators,UI / metadata,S3 - Medium,P2 - High,Reported fixed; retest required,TC-003; TC-024,Multi-track screenshot
+BUG-005,Beat-grid controls seem to affect limited output behavior,Conversion / formatting,S3 - Medium,P2 - High,Adaptive grid build created; retest required,TC-011; TC-013,Compare outputs under two settings
+BUG-006,Duplicate labels or leading output gap,Output formatting,S3 - Medium,P2 - High,Reported fixed; retest required,TC-022; TC-024,Screenshot and exported TXT
+BUG-007,Numpad input did not initially behave as expected,Keyboard input,S3 - Medium,P3 - Normal,Support added in iteration; retest required,TC-019,Test Num Lock on/off
+BUG-008,Export missing notation value may serialize as undefined,Export / possible duplicate,S2 - High,P1 - Urgent,Possible root cause/duplicate of BUG-001,TC-022; TC-023,Merge if same root cause confirmed
