@@ -8,7 +8,7 @@
 
 ## Summary of work documented
 
-> This is a QA (portofolio) documentation for a browser-based music-notation application, including a test plan, functional test cases, regression checklist, traceability matrix, and severity/priority-based historical defect log. Covered file import, notation conversion, multi-track behavior, SoundFont playback, keyboard input, UI, and export workflows.
+> This is a QA documentation for my browser-based music-notation application (https://yugisch.github.io/midi-to-gw2notation/), including a test plan, functional test cases, regression checklist, traceability matrix, and severity/priority-based historical defect log. Covered file import, notation conversion, multi-track behavior, SoundFont playback, keyboard input, UI, and export workflows.
 
 The project has evolved through iterative development of:
 - MIDI file conversion into GW2 numeric notation.
