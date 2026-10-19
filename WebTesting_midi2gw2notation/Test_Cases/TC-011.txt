@@ -1,0 +1,17 @@
+TC-011
+
+Title:
+Change beat-grid settings
+
+Steps:
+1. Open app
+2. Import valid mid/midi file
+3. change the grid settings
+4. click convert and reconvert score with different grid settings
+5. inspect the output
+
+Expected Result: 
+Output line/grouping changes as expected without changing the underlying musical sequence.
+
+Actual Result:
+Output line/grouping changes as expected without changing the underlying musical sequence.

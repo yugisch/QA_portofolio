@@ -1,0 +1,17 @@
+TC-012
+
+Title:
+Validate key optimization
+
+Steps:
+1. Open app
+2. Import valid mid/midi file
+3. choose key optimization auto/keep original key
+4. click convert score
+5. inspect the output
+
+Expected Result: 
+Output favors the intended key/range and minimizes unnecessary accidentals without changing melody.
+
+Actual Result:
+Output favors the intended key/range and minimizes unnecessary accidentals without changing melody.

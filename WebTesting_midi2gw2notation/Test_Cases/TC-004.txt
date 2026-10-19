@@ -6,6 +6,7 @@ Reject empty/invalid MIDI
 Steps:
 1. Open app
 2. Import an empty or invalid MIDI file
+3. click convert score
 
 Expected Result: 
 App shows a useful error or safely rejects it; page remains usable.

@@ -1,0 +1,17 @@
+TC-013
+
+Title:
+Repeat conversion for determinism
+
+Steps:
+1. Open app
+2. Import valid mid/midi file
+4. click convert score
+5. inspect the output
+6. repeat from step one and doing it twice
+
+Expected Result: 
+Output is deterministic and identical, unless the app intentionally includes variable metadata.
+
+Actual Result:
+Output is deterministic and identical, unless the app intentionally includes variable metadata.

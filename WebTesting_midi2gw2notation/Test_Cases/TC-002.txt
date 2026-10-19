@@ -6,6 +6,7 @@ Import valid .midi
 Steps:
 1. Open app
 2. import a small valid .midi with recognizable melody
+3. click convert score
 
 Expected Result: 
 Distinct source tracks appear as separate output tracks where supported.

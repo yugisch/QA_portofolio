@@ -1,0 +1,16 @@
+TC-008
+
+Title:
+Validate rests
+
+Steps:
+1. Open app
+2. Import valid mid/midi file
+3. click convert score
+4. inspect the output
+
+Expected Result: 
+Rest symbols/durations match the app's notation specification.
+
+Actual Result:
+Rest symbols/durations match the app's notation specification.

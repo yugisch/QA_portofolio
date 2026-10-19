@@ -1,0 +1,16 @@
+TC-006
+
+Title:
+Validate octave mapping
+
+Steps:
+1. Open app
+2. Import valid mid/midi file
+3. click convert score
+4. inspect the output
+
+Expected Result: 
+Octave markers and pitch mapping follow the app's notation rules.
+
+Actual Result:
+Octave markers and pitch mapping follow the app's notation rules.

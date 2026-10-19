@@ -1,0 +1,16 @@
+TC-007
+
+Title:
+Validate out-of-range notes/key optimizer
+
+Steps:
+1. Open app
+2. Import valid mid/midi file
+3. click convert score
+4. inspect the output
+
+Expected Result: 
+Range/key optimization behaves as designed, or out-of-range behavior is clearly indicated.
+
+Actual Result:
+Range/key optimization behaves as designed, or out-of-range behavior is clearly indicated.

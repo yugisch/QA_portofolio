@@ -1,11 +1,12 @@
 TC-003
 
 Title:
-Import a multi-track MIDI.
+Import a multi-track MIDI
 
 Steps:
 1. Open app
 2. import a multi-track midi file with recognizable melody
+3. click convert score
 
 Expected Result: 
 File loads; notation is generated; no uncaught error appears.

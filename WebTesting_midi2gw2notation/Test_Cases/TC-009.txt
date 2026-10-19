@@ -1,0 +1,16 @@
+TC-009
+
+Title:
+Validate chords
+
+Steps:
+1. Open app
+2. Import valid mid/midi file that includes chords
+3. click convert score
+4. inspect the output
+
+Expected Result: 
+Simultaneous notes are represented using the chord format expected by the app.
+
+Actual Result:
+Simultaneous notes are represented using the chord format expected by the app.

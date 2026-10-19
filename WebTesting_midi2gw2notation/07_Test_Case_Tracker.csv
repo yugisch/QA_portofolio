@@ -3,15 +3,15 @@ TC-001,Import valid .mid,MIDI import,P1,Pass,File loads; notation is generated; 
 TC-002,Import valid .midi,MIDI import,P2,Pass,File loads; notation is generated; no uncaught error appears.,,,10/12/2026
 TC-003,Import multi-track MIDI,MIDI import / track separation,P1,Pass,Distinct source tracks appear as separate output tracks where supported.,,,10/12/2026
 TC-004,Reject empty/invalid MIDI gracefully,Negative testing,P1,Pass,App shows a useful error or safely rejects it; page remains usable.,,,10/12/2026
-TC-005,Reject non-MIDI renamed as .mid,Negative testing,P2,Pass,Invalid content is rejected gracefully; no silent corrupted output.,,,10/12/2016
-TC-006,Validate octave mapping,Conversion,P1,Not Run,,,,
-TC-007,Validate out-of-range notes/key optimizer,Conversion,P1,Not Run,,,,
-TC-008,Validate rests,Conversion,P1,Not Run,,,,
-TC-009,Validate chords,Conversion,P1,Not Run,,,,
-TC-010,Validate dotted durations,Conversion,P1,Not Run,,,,
-TC-011,Change beat-grid settings,Beat grid,P2,Not Run,,,,
-TC-012,Validate key optimization,Key optimizer,P1,Not Run,,,,
-TC-013,Repeat conversion for determinism,Conversion regression,P2,Not Run,,,,
+TC-005,Reject non-MIDI renamed as .mid,Negative testing,P2,Pass,Invalid content is rejected gracefully; no silent corrupted output.,,,10/12/2026
+TC-006,Validate octave mapping,Conversion,P1,Pass,Octave markers and pitch mapping follow the app's notation rules.,,,10/15/2026
+TC-007,Validate out-of-range notes/key optimizer,Conversion,P1,Pass,"Range/key optimization behaves as designed, or out-of-range behavior is clearly indicated.",,,10/15/2026
+TC-008,Validate rests,Conversion,P1,Pass,Rest symbols/durations match the app's notation specification.,,,10/15/2026
+TC-009,Validate chords,Conversion,P1,Pass,Simultaneous notes are represented using the chord format expected by the app.,,,10/15/2026
+TC-010,Validate dotted durations,Conversion,P1,Pass,Duration markers are applied consistently.,,,10/15/2026
+TC-011,Change beat-grid settings,Beat grid,P2,Pass,Output line/grouping changes as expected without changing the underlying musical sequence.,,,10/16/2026
+TC-012,Validate key optimization,Key optimizer,P1,Pass,Output favors the intended key/range and minimizes unnecessary accidentals without changing melody.,,,10/16/2026
+TC-013,Repeat conversion for determinism,Conversion regression,P2,Pass,"Output is deterministic and identical, unless the app intentionally includes variable metadata.",,,10/17/2026
 TC-014,Play a single track,Playback,P1,Not Run,,,,
 TC-015,Switch SoundFont presets,SoundFont,P1,Not Run,,,,
 TC-016,Verify isolated track highlighting,Playback UI,P1,Not Run,,,,

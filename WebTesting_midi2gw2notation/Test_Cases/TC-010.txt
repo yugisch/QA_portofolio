@@ -1,0 +1,16 @@
+TC-010
+
+Title:
+Validate dotted durations
+
+Steps:
+1. Open app
+2. Import valid mid/midi file that has dotted note
+3. click convert score
+4. inspect the output
+
+Expected Result: 
+Duration markers are applied consistently.
+
+Actual Result:
+Duration markers are applied consistently.
