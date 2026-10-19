@@ -3,14 +3,14 @@
 Run this checklist whenever import, notation generation, playback, or export code changes.
 
 ## Core MIDI workflow
-- [ ] App loads without a fatal console error.
-- [ ] Import a valid single-track MIDI.
-- [ ] Import a valid multi-track MIDI.
-- [ ] Each track produces non-empty output where expected.
-- [ ] Track names are useful and do not duplicate unexpectedly.
-- [ ] Octave markers, rests, chords, and durations look correct for the fixture.
-- [ ] Key/range optimizer does not alter the melody unexpectedly.
-- [ ] Beat-grid settings have a visible, explainable effect.
+- [x] App loads without a fatal console error.
+- [x] Import a valid single-track MIDI.
+- [x] Import a valid multi-track MIDI.
+- [x] Each track produces non-empty output where expected.
+- [x] Track names are useful and do not duplicate unexpectedly.
+- [x] Octave markers, rests, chords, and durations look correct for the fixture.
+- [x] Key/range optimizer does not alter the melody unexpectedly.
+- [x] Beat-grid settings have a visible, explainable effect.
 
 ## Playback and SoundFont
 - [ ] Play one track; only that track's playhead/highlight updates.
