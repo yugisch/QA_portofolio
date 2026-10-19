@@ -1,0 +1,14 @@
+TC-002
+
+Title:
+Import valid .midi
+
+Steps:
+1. Open app
+2. import a small valid .midi with recognizable melody
+
+Expected Result: 
+Distinct source tracks appear as separate output tracks where supported.
+
+Actual Result:
+Distinct source tracks appear as separate output tracks where supported.

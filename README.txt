@@ -25,6 +25,7 @@ Manual testing covering:
 - Test case creation
 - Functional testing
 - Positive/negative testing
+- Regression testing
 - Bug reporting
 
 ### 3. SQL & API Testing

@@ -1,9 +1,9 @@
 Test Case ID,Test Objective,Area,Priority,Status,Actual Result,Evidence Link / Filename,Defect ID,Execution Date
-TC-001,Import valid .mid,MIDI import,P1,Not Run,,,,
-TC-002,Import valid .midi,MIDI import,P2,Not Run,,,,
-TC-003,Import multi-track MIDI,MIDI import / track separation,P1,Not Run,,,,
-TC-004,Reject empty/invalid MIDI gracefully,Negative testing,P1,Not Run,,,,
-TC-005,Reject non-MIDI renamed as .mid,Negative testing,P2,Not Run,,,,
+TC-001,Import valid .mid,MIDI import,P1,Pass,File loads; notation is generated; no uncaught error appears.,,,10/12/2026
+TC-002,Import valid .midi,MIDI import,P2,Pass,File loads; notation is generated; no uncaught error appears.,,,10/12/2026
+TC-003,Import multi-track MIDI,MIDI import / track separation,P1,Pass,Distinct source tracks appear as separate output tracks where supported.,,,10/12/2026
+TC-004,Reject empty/invalid MIDI gracefully,Negative testing,P1,Pass,App shows a useful error or safely rejects it; page remains usable.,,,10/12/2026
+TC-005,Reject non-MIDI renamed as .mid,Negative testing,P2,Pass,Invalid content is rejected gracefully; no silent corrupted output.,,,10/12/2016
 TC-006,Validate octave mapping,Conversion,P1,Not Run,,,,
 TC-007,Validate out-of-range notes/key optimizer,Conversion,P1,Not Run,,,,
 TC-008,Validate rests,Conversion,P1,Not Run,,,,

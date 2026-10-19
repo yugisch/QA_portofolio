@@ -1,5 +1,5 @@
 Requirement ID,Requirement / Feature,Mapped Test Cases,Risk,Execution Status
-REQ-01,Import valid MIDI files,"TC-001, TC-002, TC-003, TC-004, TC-005",High,Not Run
+REQ-01,Import valid MIDI files,"TC-001, TC-002, TC-003, TC-004, TC-005",High,Pass
 REQ-02,Separate MIDI source tracks into output tracks,"TC-003, TC-024",High,Not Run
 REQ-03,Correct pitch/octave/range handling,"TC-006, TC-007, TC-012",High,Not Run
 REQ-04,Correct rests/chords/durations,"TC-008, TC-009, TC-010",High,Not Run

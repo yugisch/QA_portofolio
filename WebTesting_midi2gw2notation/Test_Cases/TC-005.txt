@@ -1,0 +1,14 @@
+TC-005
+
+Title:
+Reject non-MIDI renamed as .mid
+
+Steps:
+1. Open app
+2. Import non-Midi file renamed as .mid/.midi
+
+Expected Result: 
+Invalid content is rejected gracefully; no silent corrupted output.
+
+Actual Result:
+Invalid content is rejected gracefully; no silent corrupted output.

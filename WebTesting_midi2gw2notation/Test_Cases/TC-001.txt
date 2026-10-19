@@ -1,0 +1,14 @@
+TC-001
+
+Title:
+Import valid .mid
+
+Steps:
+1. Open app
+2. import a small valid .mid with recognizable melody
+
+Expected Result: 
+File loads; notation is generated; no uncaught error appears.
+
+Actual Result:
+File loads; notation is generated; no uncaught error appears.

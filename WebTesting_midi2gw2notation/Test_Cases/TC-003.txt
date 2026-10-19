@@ -1,0 +1,14 @@
+TC-003
+
+Title:
+Import a multi-track MIDI.
+
+Steps:
+1. Open app
+2. import a multi-track midi file with recognizable melody
+
+Expected Result: 
+File loads; notation is generated; no uncaught error appears.
+
+Actual Result:
+File loads; notation is generated; no uncaught error appears.

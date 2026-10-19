@@ -2,7 +2,7 @@
 
 ## 1. Objective
 
-Validate that the application reliably imports supported musical files, converts notes and timing into Guild Wars 2 numeric notation, provides usable per-track playback, and exports output without data corruption.
+Validate that the application (https://yugisch.github.io/midi-to-gw2notation/, commit: 54533e0) reliably imports supported musical files, converts notes and timing into Guild Wars 2 numeric notation, provides usable per-track playback, and exports output without data corruption.
 
 ## 2. Application overview
 

@@ -1,0 +1,14 @@
+TC-004
+
+Title:
+Reject empty/invalid MIDI
+
+Steps:
+1. Open app
+2. Import an empty or invalid MIDI file
+
+Expected Result: 
+App shows a useful error or safely rejects it; page remains usable.
+
+Actual Result:
+App shows a useful error or safely rejects it; page remains usable.
